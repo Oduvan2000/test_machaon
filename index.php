@@ -22,7 +22,7 @@ function config($optionName, $defaultValue = null)
     return $setting;
 }
 
-$optionName = "assets.test";
+$optionName = "db.user";
 
 try {
     var_dump(config($optionName));
