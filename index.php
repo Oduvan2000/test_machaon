@@ -31,11 +31,3 @@ function config($optionName, $defaultValue = null)
 
     return $setting->scalar;
 }
-
-$optionName = "site_name.1";
-
-try {
-    var_dump(config($optionName));
-} catch (Exception $e) {
-    echo $e;
-}
